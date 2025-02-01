@@ -1,7 +1,7 @@
 import { Button, Card } from 'antd';
 import './FlipCard.css';
 
-import {  InstagramOutlined, LinkedinOutlined, UserOutlined } from '@ant-design/icons';
+import {  InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
 
 const FlipCard = () => {
     

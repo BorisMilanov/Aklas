@@ -4,7 +4,7 @@ import './FlipCard.css';
 import styled from "styled-components";
 import { AntDesignOutlined, InstagramOutlined, LinkedinOutlined, UserOutlined } from '@ant-design/icons';
 
-const FlipCard = () => {
+const AvatarFlipCard = () => {
     const linkedin = "https://www.linkedin.com/in/boris-milanov-611b611b4/";
     const instagram = "https://www.instagram.com/boris";
 
@@ -12,25 +12,20 @@ const FlipCard = () => {
         <div className="flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                    <Card bordered={true}  cover={<img alt="example" src="./profileBoris.jpg"  />}
+                    <Card>
         
-              style={{display: "block",  margin: "0 auto"}} >
+                    <Avatar
+    size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 110 }}
+     src="./profileBoris.jpg"
+  />
              
                         <h2>Boris Milanov</h2>
                         <p>Web Developer</p>
                         <p>Email: boris.mil@example.com</p>
                         <p>Phone: (123) 456-7890</p>
-                        {/* <p>
-                            <a href={linkedin} target="_blank" rel="noopener noreferrer">
-                                LinkedIn
-                            </a>
-                        </p>
-                        <p>
-                            <a href={instagram} target="_blank" rel="noopener noreferrer">
-                                Instagram
-                            </a>
-                        </p> */}
+                    
                     </Card>
+ 
                 </div>
                 <div className="flip-card-back">
                     <Card bordered={true} style={{ width: 300, backgroundColor: '#2C3E50', color: 'white' }}>
@@ -61,4 +56,4 @@ const FlipCard = () => {
     );
 };
 
-export default FlipCard;
+export default AvatarFlipCard;

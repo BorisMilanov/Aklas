@@ -1,46 +1,4 @@
-// import React from "react";
-// import { Card, Avatar, Typography, Button } from "antd";
-// import { MailOutlined, PhoneOutlined, GlobalOutlined, LinkedinOutlined, InstagramOutlined } from "@ant-design/icons";
 
-// const { Title, Text } = Typography;
-
-// interface VisitCardProps {
-//   name: string;
-//   title: string;
-//   email: string;
-//   phone: string;
-//   website?: string;
-//   linkedin?: string;
-//   instagram?: string;
-//   avatarUrl?: string;
-// }
-
-// const VisitCard: React.FC<VisitCardProps> = ({ name, title, email, phone, website, linkedin, instagram, avatarUrl }) => {
-//   return (
-//     <Card style={{ width: 300, textAlign: "center", borderRadius: 10 }}>
-         
-//       <Avatar size={80} src={avatarUrl} style={{ marginBottom: 10 }} />
-//       <Title level={4}>{name}</Title>
-//       <Text type="secondary">{title}</Text>
-//       <div style={{ marginTop: 15, textAlign: "center" }}>
-//         <p><MailOutlined /> <Text>{email}</Text></p>
-//         <p><PhoneOutlined /> <Text>{phone}</Text></p>
-//         {website && (
-//           <p><GlobalOutlined /> <a href={website} target="_blank" rel="noopener noreferrer">{website}</a></p>
-//         )}
-//         {linkedin && (
-//           <p><LinkedinOutlined /> <a href={linkedin} target="_blank" rel="noopener noreferrer">Boris M</a></p>
-//         )}
-//         {instagram && (
-//           <p><InstagramOutlined /> <a href={instagram} target="_blank" rel="noopener noreferrer">Boris M</a></p>
-//         )}
-//       </div>
-      
-//     </Card>
-//   );
-// };
-
-// export default VisitCard;
 import React from "react";
 import { Card } from "antd";
 import styled from "styled-components";
@@ -103,23 +61,23 @@ const StyledCard = styled(Card)`
     z-index: -1;
   }
 `;
-const dummyVisitCard: VisitCardProps = {
-    name: "John Doe",
-    title: "Software Engineer",
-    email: "john.doe@gmail.com",
-    phone: "+123456789",
-    linkedin: "https://www.linkedin.com/in/john-doe/",
-    instagram: "https://www.instagram.com/john.doe"
-  };
+// const dummyVisitCard: VisitCardProps = {
+//     name: "John Doe",
+//     title: "Software Engineer",
+//     email: "john.doe@gmail.com",
+//     phone: "+123456789",
+//     linkedin: "https://www.linkedin.com/in/john-doe/",
+//     instagram: "https://www.instagram.com/john.doe"
+//   };
   
   // Parent Component (Renders One VisitCard)
-  const SingleVisitCard: React.FC = () => {
-    return (
-      <StyledCard>
-        <VisitCard {...dummyVisitCard} />
-      </StyledCard>
-    );
-  };
+  // const SingleVisitCard: React.FC = () => {
+  //   return (
+  //     <StyledCard>
+  //       <VisitCard {...dummyVisitCard} />
+  //     </StyledCard>
+  //   );
+  // };
 const CustomCard: React.FC = () => {
   return (
     <StyledCard>

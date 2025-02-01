@@ -1,13 +1,10 @@
-import React from 'react';
-import { Avatar, Button, Card } from 'antd';
+import { Button, Card } from 'antd';
 import './FlipCard.css';
-import styled from "styled-components";
-import { AntDesignOutlined, InstagramOutlined, LinkedinOutlined, UserOutlined } from '@ant-design/icons';
+
+import {  InstagramOutlined, LinkedinOutlined, UserOutlined } from '@ant-design/icons';
 
 const FlipCard = () => {
-    const linkedin = "https://www.linkedin.com/in/boris-milanov-611b611b4/";
-    const instagram = "https://www.instagram.com/boris";
-
+    
     return (
         <div className="flip-card">
             <div className="flip-card-inner">
@@ -20,16 +17,7 @@ const FlipCard = () => {
                         <p>Web Developer</p>
                         <p>Email: boris.mil@example.com</p>
                         <p>Phone: (123) 456-7890</p>
-                        {/* <p>
-                            <a href={linkedin} target="_blank" rel="noopener noreferrer">
-                                LinkedIn
-                            </a>
-                        </p>
-                        <p>
-                            <a href={instagram} target="_blank" rel="noopener noreferrer">
-                                Instagram
-                            </a>
-                        </p> */}
+                  
                     </Card>
                 </div>
                 <div className="flip-card-back">

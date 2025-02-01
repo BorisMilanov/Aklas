@@ -1,12 +1,10 @@
-import React from 'react';
+
 import { Avatar, Button, Card } from 'antd';
 import './FlipCard.css';
-import styled from "styled-components";
-import { AntDesignOutlined, InstagramOutlined, LinkedinOutlined, UserOutlined } from '@ant-design/icons';
+
+import {  InstagramOutlined, LinkedinOutlined, UserOutlined } from '@ant-design/icons';
 
 const AvatarFlipCard = () => {
-    const linkedin = "https://www.linkedin.com/in/boris-milanov-611b611b4/";
-    const instagram = "https://www.instagram.com/boris";
 
     return (
         <div className="flip-card">

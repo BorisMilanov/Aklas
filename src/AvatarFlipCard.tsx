@@ -13,7 +13,7 @@ const AvatarFlipCard = () => {
                     <Card style={{height:400,width:400}}>
 
                         <Avatar
-                            size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 110 }}
+                         size={{ xs: 74, sm: 80, md: 100, lg: 110, xl: 120, xxl: 140 }}
                             shape="circle"
                             src="./flipminalo.jpg"
 
@@ -31,7 +31,8 @@ const AvatarFlipCard = () => {
                 <div className="flip-card-back">
                     <Card bordered={true} style={{ width: 400,height: 400,backgroundColor: '#2C3E50', color: 'white',  }}>
                     <Avatar
-                            size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 110 }}
+                            // size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 110 }}
+                            size={{ xs: 74, sm: 80, md: 100, lg: 110, xl: 120, xxl: 140 }}
                             shape="circle"
                             src="./profileBoris.jpg"
 

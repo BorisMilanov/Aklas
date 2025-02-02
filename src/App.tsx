@@ -1,5 +1,5 @@
 
-import FlipCard from "./FlipCard";
+// import FlipCard from "./FlipCard";
 import AvatarFlipCard from "./AvatarFlipCard";
 
 
@@ -18,7 +18,8 @@ function App() {
       }}>
      
 
-      <FlipCard/>
+      {/* <FlipCard/> */}
+      <AvatarFlipCard/>
       <AvatarFlipCard/>
    
 

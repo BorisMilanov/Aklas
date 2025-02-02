@@ -1,6 +1,6 @@
 import React from "react";
-import { Layout, Typography, Card, Row, Col, Space } from "antd";
-import { ClockCircleOutlined, HomeOutlined, PhoneOutlined } from "@ant-design/icons";
+import { Layout, Typography, Card, Row, Col,  } from "antd";
+import { ClockCircleOutlined, HomeOutlined,  } from "@ant-design/icons";
 import dayjs from "dayjs";
 import Countdown from "antd/es/statistic/Countdown";
 

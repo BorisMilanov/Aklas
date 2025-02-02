@@ -1,13 +1,13 @@
 import React from "react";
-import { Layout, Typography, Button, Card, Row, Col, Avatar, Space } from "antd";
+import { Layout, Typography, Card, Row, Col, Space } from "antd";
 import { ClockCircleOutlined, HomeOutlined, PhoneOutlined } from "@ant-design/icons";
 import dayjs from "dayjs";
 import Countdown from "antd/es/statistic/Countdown";
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content, } = Layout;
 const { Title, Paragraph } = Typography;
 
-const eventDate = dayjs("2025-06-20T18:00:00"); // Set your event date
+const eventDate = dayjs("2025-05-10T18:00:00"); // Set your event date
 
 const Home: React.FC = () => {
   return (
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         </Row>
 
         {/* Gallery Section */}
-        <Title level={3} style={{ textAlign: "center", marginTop: "40px" }}>📸 Memories from the Past</Title>
+        {/* <Title level={3} style={{ textAlign: "center", marginTop: "40px" }}>📸 Memories from the Past</Title>
         <Row gutter={[16, 16]} justify="center">
           <Col xs={24} sm={12} md={8}>
             <Card cover={<img src="https://via.placeholder.com/300" alt="Reunion" />} />
@@ -72,18 +72,18 @@ const Home: React.FC = () => {
           </Col>
         </Row>
 
-      
+       */}
 
       </Content>
 
-      {/* Footer */}
+      {/* Footer
       <Footer style={{ textAlign: "center", backgroundColor: "#001529", color: "white", marginTop: "40px" }}>
         <Space direction="vertical">
           <Paragraph>📍 XYZ High School, City, Country</Paragraph>
           <Paragraph><PhoneOutlined /> Contact: +123 456 7890</Paragraph>
           <Paragraph>© 2025 School Reunion. All Rights Reserved.</Paragraph>
         </Space>
-      </Footer>
+      </Footer> */}
 
     </Layout>
   );

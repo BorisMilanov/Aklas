@@ -11,7 +11,7 @@ const FlipCard = () => {
                 <div className="flip-card-front">
                     <Card bordered={true} cover={<img alt="example" src="./profileBoris.jpg" />}
 
-                        style={{ display: "block", margin: "0 auto" }} >
+                        style={{ display: "block", margin: "0 auto" , width: 200, height:400}}  >
 
                         <h2>Boris Milanov</h2>
                         <p>Web Developer</p>
@@ -21,7 +21,7 @@ const FlipCard = () => {
                     </Card>
                 </div>
                 <div className="flip-card-back">
-                    <Card bordered={true} style={{ width: 400, backgroundColor: '#2C3E50', color: 'white',height:400 }}>
+                    <Card bordered={true} style={{ width: 300, backgroundColor: '#2C3E50', color: 'white',height:400 }}>
                         <h3>About Me</h3>
                         <p>Passionate about building responsive and user-friendly websites.</p>
                         <p>Experience in HTML, CSS, JavaScript, and React.</p>
